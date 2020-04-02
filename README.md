@@ -9,4 +9,7 @@ FireFox browser == v72.0.2; ||
 
 IDE: PyCharm == v2019.3.2; || 
 
+PyTest Allure Report: https://admiring-nightingale-c645f5.netlify.com/
+
+BDD Allure Report: https://wizardly-wescoff-30f036.netlify.com/
 
