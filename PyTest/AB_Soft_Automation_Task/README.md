@@ -1,0 +1,33 @@
+**AB Soft Automation Task**
+
+**Для запуска теста небходимо:**
+
+Важно! Убедитесь, что структура файлов и папок такая: **Скриншот структуры**  https://picua.org/image/annotation-2020-05-03-014227.p9w6MB
+
+**1**/ Подготовить интерпретатор Python
+
+**2**/ Установить все необходимые плагины из **requirements.txt**
+
+**3**/ Получить API Key от GMAIL, чтобы можно было отправить письмо, ссылка с интрукцией как это сделать: https://developers.google.com/gmail/api/quickstart/python
+
+**3.1**/ После получения "**client_id.json**", этот файл необходимо поместить в папку '**helpers**'
+
+**4**/ Для запуска теста необходимо ввести в консоль команду **pytest -v -s test_send_mail.py**
+
+**4.1**/ Чтобы генерировать Allure Report при прохождении теста, команда **pytest -v -s --alluredir="reports" test_product_page.py**
+
+**4.2**/ Пример Allure Report'a по тесту представлен по ссылке: https://angry-yonath-4ab6ca.netlify.app/
+
+
+**Environment**: 
+
+1. Chrome Version 81.0.4044.129;
+
+2. chromedriver 81.0.4044.69;
+
+3. Python v3.7.6;
+
+4. IDE: PyCharm 2019.3.2; 
+
+5. WIN 10;
+

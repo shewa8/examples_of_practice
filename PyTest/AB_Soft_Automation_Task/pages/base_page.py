@@ -17,7 +17,7 @@ class BasePage:
         self.browser.get(self.url)
 
     # Wait for present of element (Explicit Waits)
-    def element_to_be_present(self, how, what, timeout=30):
+    def element_to_be_present(self, how, what, timeout=15):
         try:
             driver_wait = WebDriverWait(self.browser, timeout).until(
                 EC.presence_of_element_located((how, what)))
@@ -26,7 +26,7 @@ class BasePage:
         return driver_wait
 
     # Wait for element to be clickable (Explicit Waits)
-    def element_to_be_clickable(self, how, what, timeout=30):
+    def element_to_be_clickable(self, how, what, timeout=15):
         try:
             driver_wait = WebDriverWait(self.browser, timeout).until(
                 EC.element_to_be_clickable((how, what)))

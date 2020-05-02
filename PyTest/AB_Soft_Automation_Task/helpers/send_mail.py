@@ -146,6 +146,6 @@ class CopyEmailAddress(BasePage):
         LogFile.logger.info(f'Email message "{msgHtml}" successfully sent to "{to}"')
         msgPlain = "Hi\nPlain Email"
         SendMessage(sender, to, subject, msgHtml, msgPlain)
-        time.sleep(Env.vars['wait_time'])
+        time.sleep(Env.vars['verify_time'])
         # Send message with attachment:
         # SendMessage(sender, to, subject, msgHtml, msgPlain, '/path/to/file.pdf')
