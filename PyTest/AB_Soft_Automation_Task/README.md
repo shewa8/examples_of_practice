@@ -18,7 +18,7 @@
 
 **4.1.**/ Чтобы cгенерировать Allure Report при прохождении теста, команда **pytest -v -s --alluredir="reports" test_product_page.py**
 
-**4.2.**/ Пример Allure Report'a по тесту представлен по ссылке: https://angry-yonath-4ab6ca.netlify.app/
+**4.2.**/ Пример Allure Report'a по тесту представлен по ссылке: https://angry-yonath-4ab6ca.netlify.app/#suites/92a6db84f76545974e48f7c1f27d8f15/d76db9c3a6db1f93/
 
 
 **Environment**: 
