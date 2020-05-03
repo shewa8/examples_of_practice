@@ -8,7 +8,7 @@
 
 **2.**/ Установить все необходимые плагины из **requirements.txt**
 
-**3.**/ Получить API Key от GMAIL, чтобы можно было отправить письмо, ссылка с интрукцией как это сделать: https://developers.google.com/gmail/api/quickstart/python
+**3.**/ Получить API Key от GMAIL, чтобы можно было отправить письмо, ссылка с инструкцией как это сделать: https://developers.google.com/gmail/api/quickstart/python
 
 **3.1.**/ После получения '**client_id.json**', этот файл необходимо поместить в папку '**helpers**'
 
@@ -16,10 +16,15 @@
 
 **4.**/ Для запуска теста необходимо ввести в консоль команду **pytest -v -s test_send_mail.py**
 
-**4.1.**/ Чтобы cгенерировать Allure Report при прохождении теста, команда **pytest -v -s --alluredir="reports" test_product_page.py**
+**Опционально:**
 
-**4.2.**/ Пример Allure Report'a по тесту представлен по ссылке: https://angry-yonath-4ab6ca.netlify.app/#suites/92a6db84f76545974e48f7c1f27d8f15/d76db9c3a6db1f93/
+**5./** Установка Allure Report (чтобы после его можно было просмотреть), ссылка с инструкцией как это сделать: https://docs.qameta.io/allure/#_get_started
 
+**5.1.**/ Чтобы cгенерировать Allure Report при прохождении теста, команда **pytest -v -s --alluredir="reports" test_send_mail.py**
+
+**5.2.**/ Чтобы просмотреть Allure Report необходимо ввести в консоль команду **allure serve -o reports**
+
+**5.3.**/ Пример Allure Report'a по **данному тесту** представлен по ссылке: https://angry-yonath-4ab6ca.netlify.app/#suites/92a6db84f76545974e48f7c1f27d8f15/d76db9c3a6db1f93/
 
 **Environment**: 
 
